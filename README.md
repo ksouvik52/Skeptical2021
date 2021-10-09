@@ -1,13 +1,18 @@
-<p align="center"><img width="70%" src="/Fig/neurips_logo.png"></p><br/> 
+<p align="center"><img width="30%" src="/Fig/neurips_logo.png"></p><br/> 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 
-Welcome to the official repo of the `ICCV 2021` paper **`HIRE-SNN: Harnessing the Inherent Robustness of Energy-Efficient Deep Spiking Neural Networks by Training with Crafted Input Noise`**.
+Welcome to the official repo of the `ICCV 2021` paper **`Analyzing the Confidentiality of Undistillable Teachers in Knowledge Distillation`**.
 
 **This repo currently contains the test codes. Training code will be updated soon!**
 
 ### Authors:
 1. **Souvik Kundu** (souvikku@usc.edu)
-2. Massoud Pedram (pedram@usc.edu)
-3. Peter A. Beerel (pabeerel@usc.edu)
+2. Qirui Sun (qiruisun@usc.edu)
+3. Yao Fu (yaof@usc.edu)
+4. Massoud Pedram (pedram@usc.edu)
+5. Peter A. Beerel (pabeerel@usc.edu)
+
+### Abstract:
+Knowledge distillation (KD) has recently been identified as a method that can unintentionally leak private information regarding the details of a teacher model toan unauthorized student. Recent research in developing undistillable nasty teachersthat can protect model confidentiality has gained significant attention. However,the level of protection these nasty models offer has been largely untested. In thispaper, we show that transferring knowledge to a shallow sub-section of a studentcan largely reduce a teacher’s influence.  By exploring the depth of the shallow subsection, we then present a distillation technique that enables a skeptical student model to learn even from a nasty teacher. To evaluate the efficacy of our skeptical students, we conducted experiments with several models with standard KD on both training data-available and data-free scenarios for various datasets. Compared to the normal student models, our skeptical students consistently provide superior classification performance of up to ∼59.5% and ∼5.8% in the presence (data-available) and absence (data-free) of the training data, respectively.  Moreover,similar to normal students, skeptical students maintain high classification accuracy when distilled from a normal teacher, showing their efficacy irrespective of theteacher being nasty or not. We believe the ability of skeptical students to largely diminish the KD-immunity of a potentially nasty teacher will motivate the research community to create more robust mechanisms for model confidentiality.
