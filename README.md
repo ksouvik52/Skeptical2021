@@ -40,4 +40,6 @@ If you find this project useful to you, please cite our work:
       year    ={2021}}
 
 ### Acknowledgments
-[Undistillable Repo](https://github.com/VITA-Group/Nasty-Teacher)
+[Undistillable repo](https://github.com/VITA-Group/Nasty-Teacher)
+[Be your own teacher repo](https://github.com/luanyunteng/pytorch-be-your-own-teacher)
+[ZSKD](https://github.com/polo5/ZeroShotKnowledgeTransfer)
