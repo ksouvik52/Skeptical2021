@@ -20,6 +20,8 @@ Knowledge distillation (KD) has recently been identified as a method that can un
 #### Trained models on CIFAR-100:
 1. [ResNet18_CIFAR100_Nasty_model](https://drive.google.com/file/d/1TLZkpNYLCKcot_sINupuYl3aKRg-z-df/view?usp=sharing)
 2. [ResNet18_CIFAR100_Normal_model](https://drive.google.com/file/d/1vXyg0eK5y9iO-ZC03xfZgEXQ9s1IudOO/view?usp=sharing)
+3. [ResNet50_CIFAR100_Nasty_model](https://drive.google.com/file/d/1AnAu_Z3WHezjo0t4tt--yJ-rV42LCxzb/view?usp=sharing)
+4. [ResNet50_CIFAR100_Normal_model](https://drive.google.com/file/d/1gtzaf-hfPBKVnsHrcbyaE6zqJ_SzHYl4/view?usp=sharing)
 ### To use the repo:
 A> This is the codebase for the skeptical students that can distill from a nasty teacher. This code base supports 
 CIFAR-10 and CIFAR-100 dataset for ResNet18, ResNet50 and MobileNetV2 models.
