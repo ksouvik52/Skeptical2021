@@ -1,4 +1,4 @@
-<p align="center"><img width="50%" src="/Fig/neurips_logo.png"></p><br/> 
+<p align="center"><img width="80%" src="/Fig/neurips_logo.png"></p><br/> 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
